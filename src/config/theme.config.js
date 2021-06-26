@@ -7,3 +7,6 @@ export const Theme1 = {
   CATEGORY_GOOD: '#52B157',
   GREY: '#999999',
 };
+
+
+//Theme config, had idea from a previous e-commerce site

@@ -1,6 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { Theme1 } from '../config/theme.config';
 
+//simple stylesheet for charts in react
 export const useStyles = makeStyles({
   root: {
     fontFamily: 'Roboto',

@@ -10,6 +10,9 @@ import GoogleChart from "./GoogleChart";
 import Card from "@material-ui/core/Card";
 import "../../common-css/GoogleMap.css";
 
+//The Main page renders The Major cities chart, the google chart and layout
+//TODO: Cleanup needed on rendering layout
+//TODO: Possible to breakup api rendering using UseEffect
 function MainPage() {
   const classes = useStyles();
 

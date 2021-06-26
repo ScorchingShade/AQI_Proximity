@@ -2,6 +2,8 @@ import { CardContent, Typography } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import { useStyles } from "./chartStyles";
 
+
+// Required to render the Cities dashboard
 const Live = ({ cities }) => {
   const classes = useStyles();
 

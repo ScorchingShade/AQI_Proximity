@@ -3,6 +3,8 @@ import { useStyles } from "./AboutStyle";
 import s1 from '../resources/s1.png';
 import s2 from '../resources/s2.png';
 
+
+// The about page hosted at /about
 function About() {
   const classes = useStyles();
   return (

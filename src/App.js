@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Login from "./views/Login";
 import About from "./views/About";
 
+// Routing done throuw React router dom 
+// Placeholder added for login
 function App() {
   return (
     <Router>

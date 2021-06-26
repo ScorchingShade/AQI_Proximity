@@ -3,6 +3,8 @@ import Chart from "react-google-charts";
 import dotenv from "dotenv";
 dotenv.config()
 
+//TODO: Cleanup the data rendering later, hide key
+//This component allows the rendering of google maps
 
 function GoogleChart({ cities }) {
   let data1 = [["City", "AQI"]];

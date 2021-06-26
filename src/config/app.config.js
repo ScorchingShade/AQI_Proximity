@@ -10,3 +10,5 @@ export const APP = {
     { name: 'SEVERE', startRange: 401, endRange: 500, color: '#f1011e' },
   ],
 };
+
+//Simple config file to contain data for labels on charts etc.
