@@ -20,6 +20,18 @@ export const useStyles = makeStyles({
   header: {
     fontWeight: 'bolder',
   },
+
+  viewScroll:{
+    overflow: 'scroll',
+    height:"100vh",
+
+    ['@media (max-width:600px)']: { // eslint-disable-line no-useless-computed-key
+      overflow: 'scroll',
+    height:"80vh",
+   
+    }
+    
+},
   headerLight: {
     fontWeight: 'bolder',
     color: Theme1.LIGHT,

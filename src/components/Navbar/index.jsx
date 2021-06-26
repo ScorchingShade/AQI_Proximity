@@ -37,18 +37,18 @@ function Navbar() {
           </li>
 
           <li className="nav-item">
-          <Link to="/login" className="nav-link">
+          {/* <Link to="/login" className="nav-link">
               <article style={{ fontSize: "1.7em" }}>
                 <i className="fad fa-sign-in fa-fw"></i>
               </article>
 
               <span className="link-text">Login</span>
-         </Link>
+         </Link> */}
           </li>
 
           
           <li className="nav-item">
-           <Link to="/" className="nav-link">
+           <Link to="/about" className="nav-link">
               <article style={{ fontSize: "1.7rem" }}>
                 <i className="fad fa-question fa-fw"></i>
               </article>

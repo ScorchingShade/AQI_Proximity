@@ -1,5 +1,8 @@
 import React from "react";
 import Chart from "react-google-charts";
+import dotenv from "dotenv";
+dotenv.config()
+
 
 function GoogleChart({ cities }) {
   let data1 = [["City", "AQI"]];
@@ -9,7 +12,8 @@ function GoogleChart({ cities }) {
     Math.round(city.aqi * 100 + Number.EPSILON) / 100,
   ]);
   let dataFinal = [...data1, ...data3];
-  console.log(dataFinal);
+
+  console.log("env is"+process.env.GKEY);
   return (
     <div>
       <Chart
@@ -33,7 +37,7 @@ function GoogleChart({ cities }) {
         }}
         // Note: you will need to get a mapsApiKey for your project.
         // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-        mapsApiKey="AIzaSyAYeOHZCDSKlpZXGBhMES5vc6RpXdQUZuw"
+        mapsApiKey = "AIzaSyAYeOHZCDSKlpZXGBhMES5vc6RpXdQUZuw"
         rootProps={{ "data-testid": "2" }}
       />
     </div>
