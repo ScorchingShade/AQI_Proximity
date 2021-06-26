@@ -13,6 +13,7 @@ function App() {
         <Switch>
           <main>
         <Route path="/" exact  render={(props) => <Home {...props}/>}/>
+        <Route path="/home" exact  render={(props) => <Home {...props}/>}/>
         <Route path="/login" exact  render={(props) => <Login {...props}/>}/>
         <Route path="/about" exact  render={(props) => <About {...props}/>}/>
         </main>
