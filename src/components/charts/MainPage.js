@@ -3,6 +3,8 @@ import { initiateSocket, subscribe } from '../../api/socket';
 import MajorCities from './MajorCities';
 import { useStyles } from '../../styles/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import GraphyDes from './GraphyDes';
+import GoogleChart from './GoogleChart';
 
 function MainPage() {
     const classes = useStyles();
@@ -77,9 +79,15 @@ function MainPage() {
 
     return (
         <div>
-           {console.log(cities)}
+          
            {cities.length > 0 ? (
+               <>
                  <MajorCities cities={cities} />
+                 <br></br>
+            <div style={{display: 'flex',flexDirection: 'row',alignItems: 'center',width: '100vw',justifyContent: 'center'}}>
+                 <GoogleChart cities={cities}/>
+                 </div>
+                 </>
            ):(
             <div className={classes.loadContainer}>
               {' '}
