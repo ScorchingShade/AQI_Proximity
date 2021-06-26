@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/AQI_Proximity/static/css/main.80c50b3b.chunk.css",
+    "main.js": "/AQI_Proximity/static/js/main.ff83cc32.chunk.js",
+    "main.js.map": "/AQI_Proximity/static/js/main.ff83cc32.chunk.js.map",
+    "runtime-main.js": "/AQI_Proximity/static/js/runtime-main.cd9144ed.js",
+    "runtime-main.js.map": "/AQI_Proximity/static/js/runtime-main.cd9144ed.js.map",
+    "static/js/2.6bcc2e90.chunk.js": "/AQI_Proximity/static/js/2.6bcc2e90.chunk.js",
+    "static/js/2.6bcc2e90.chunk.js.map": "/AQI_Proximity/static/js/2.6bcc2e90.chunk.js.map",
+    "static/js/3.f5163ac0.chunk.js": "/AQI_Proximity/static/js/3.f5163ac0.chunk.js",
+    "static/js/3.f5163ac0.chunk.js.map": "/AQI_Proximity/static/js/3.f5163ac0.chunk.js.map",
+    "index.html": "/AQI_Proximity/index.html",
+    "static/css/main.80c50b3b.chunk.css.map": "/AQI_Proximity/static/css/main.80c50b3b.chunk.css.map",
+    "static/js/2.6bcc2e90.chunk.js.LICENSE.txt": "/AQI_Proximity/static/js/2.6bcc2e90.chunk.js.LICENSE.txt",
+    "static/media/s1.21b9ac39.png": "/AQI_Proximity/static/media/s1.21b9ac39.png",
+    "static/media/s2.92003b36.png": "/AQI_Proximity/static/media/s2.92003b36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd9144ed.js",
+    "static/js/2.6bcc2e90.chunk.js",
+    "static/css/main.80c50b3b.chunk.css",
+    "static/js/main.ff83cc32.chunk.js"
+  ]
+}
